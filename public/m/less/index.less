@@ -1,7 +1,15 @@
 @import 'base.less';
 
 .bigbox {
-
+    #main {
+        padding-top: .45rem;
+        padding-bottom: .45rem;
+        height: 100vh;
+        .mui-scroll-wrapper {
+            position: relative;
+            height: 100%;
+        }
+    }
     // 导航的样式
     .nav {
         .navdirection {
@@ -115,31 +123,5 @@
                 }
             }
         }
-    }
-    // 底部区域
-    #footer {
-        height: .45rem;
-        background-color: @baseColor;
-        color: #fff;
-        display: flex;
-            div {
-
-                flex: 1;
-                a{
-                    color: #fff;
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    i {
-                        margin-top: .06rem;
-                    }
-                }
-                .active {
-                    color: red;
-                }
-            }
     }
 }
