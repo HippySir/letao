@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <!-- 设置视口 -->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>超屌的移动端购物主页</title>
     <!-- 引入MUI的CSS文件 -->
@@ -15,9 +17,169 @@
     <link rel="stylesheet" href="./less/index.css">
 
 </head>
-<body>
-    <div>
 
+<body>
+    <div class="bigbox">
+        <!-- 头部样式 -->
+        <header id="header">
+            <div class="left">
+
+            </div>
+            <div class="center">
+                <h4>乐淘页面</h4>
+            </div>
+            <div class="right">
+                <i class="fa fa-search"></i>
+            </div>
+        </header>
+        <!-- 中间主体 -->
+        <main id="main">
+            <!-- 轮播图区域 -->
+            <section class="slideshow">
+                <div class="mui-slider">
+                    <div class="mui-slider-group mui-slider-loop">
+                        <!-- 图片实现轮播的最后一张图片的复制 -->
+                        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img
+                                    src="./images/banner4.png" /></a></div>
+                        <div class="mui-slider-item"><a href="#"><img src="./images/banner1.png" /></a></div>
+                        <div class="mui-slider-item"><a href="#"><img src="./images/banner2.png" /></a></div>
+                        <div class="mui-slider-item"><a href="#"><img src="./images/banner3.png" /></a></div>
+                        <div class="mui-slider-item"><a href="#"><img src="./images/banner4.png" /></a></div>
+                        <!-- 图片实现轮播的第一张的复制 -->
+                        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img
+                                    src="./images/banner1.png" /></a></div>
+                    </div>
+                    <div class="mui-slider-indicator">
+                        <div class="mui-indicator mui-active"></div>
+                        <div class="mui-indicator"></div>
+                        <div class="mui-indicator"></div>
+                        <div class="mui-indicator"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- 导航区域 -->
+            <nav class="nav">
+                <div class="navdirection mui-row">
+                    <div class="mui-col-xs-4"><a href="#"><img src="./images/nav1.png" alt=""></a></div>
+                    <div class="mui-col-xs-4"><a href="#"><img src="./images/nav2.png" alt=""></a></div>
+                    <div class="mui-col-xs-4"><a href="#"><img src="./images/nav3.png" alt=""></a></div>
+                    <div class="mui-col-xs-4"><a href="#"><img src="./images/nav4.png" alt=""></a></div>
+                    <div class="mui-col-xs-4"><a href="#"><img src="./images/nav5.png" alt=""></a></div>
+                    <div class="mui-col-xs-4"><a href="#"><img src="./images/nav6.png" alt=""></a></div>
+                </div>
+            </nav>
+            <!-- 鞋橱柜必备 -->
+            <section class="shoe">
+                <div class="shoebox  mui-row">
+                    <div class="shoeleft mui-col-xs-8">
+                        <a href="#">
+                            <img src="./images/active1.png" alt="">
+                            <img src="./images/active2.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/active4.png" alt="">
+                            <img src="./images/active5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="shoeright mui-col-xs-4">
+                        <a href="#">
+                            <img src="./images//active3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- 品牌专区 -->
+            <section class="brandzone">
+                <div class="titlt">
+                    <a href="#">
+                        <img src="./images//title1.png" alt="">
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="#"><img src="./images/brand1.png" alt=""></a>
+                    <a href="#"><img src="./images/brand2.png" alt=""></a>
+                    <a href="#"><img src="./images/brand3.png" alt=""></a>
+                    <a href="#"><img src="./images/brand4.png" alt=""></a>
+                    <a href="#"><img src="./images/brand5.png" alt=""></a>
+                    <a href="#"><img src="./images/brand6.png" alt=""></a>
+                    <a href="#"><img src="./images/brand7.png" alt=""></a>
+                    <a href="#"><img src="./images/brand8.png" alt=""></a>
+                </div>
+            </section>
+            <!-- 运动生活专区 -->
+            <div class="sportlife">
+                <div class="toptitlt">
+                    <a href="#">
+                        <img src="./images//title2.png" alt="">
+                    </a>
+                </div>
+                <div class="bottomcontent">
+                    <div class="contentbox">
+                        <div class="contentdetaile">
+                            <img src="./images//product.jpg" alt="">
+                            <p>NIKE运动休闲鞋</p>
+                            <p class="span">¥689</p>
+                        </div>
+                        <div class="button">
+                            <button type="button" class="mui-btn mui-btn-primary ">立即购买</button>
+                        </div>
+                    </div>
+                    <div class="contentbox">
+                        <div class="contentdetaile">
+                            <img src="./images//product.jpg" alt="">
+                            <p>NIKE运动休闲鞋</p>
+                            <p class="span">¥689</p>
+                        </div>
+                        <div class="button">
+                            <button type="button" class="mui-btn mui-btn-primary ">立即购买</button>
+                        </div>
+                    </div>
+                    <div class="contentbox">
+                        <div class="contentdetaile">
+                            <img src="./images//product.jpg" alt="">
+                            <p>NIKE运动休闲鞋</p>
+                            <p class="span">¥689</p>
+                        </div>
+                        <div class="button">
+                            <button type="button" class="mui-btn mui-btn-primary ">立即购买</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 女士专栏 -->
+            <div class="mscolumn">
+
+            </div>
+            <!-- 男士专栏 -->
+            <div class="mencolumen"></div>
+        </main>
+        <!-- 底部区域 -->
+        <footer id="footer">
+            <div class="homepage">
+                <a href="index.html">
+                    <i class="fa fa-university"></i><span>首页</span>
+                </a>
+
+            </div>
+            <div class="classify">
+                <a href="category.html">
+                    <i class="fa fa-bolt" aria-hidden="true"></i> <span>分类</span>
+                </a>
+
+            </div>
+            <div class="shoppingcart">
+                <a href="shopcar">
+                    <i class="fa fa-car"></i><span>购物车</span>
+                </a>
+
+            </div>
+            <div class="personalcenter">
+                <a href="usercenter" class="active">
+                    <i class="fa fa-user"></i><span>个人中心</span>
+                </a>
+
+            </div>
+        </footer>
     </div>
     <!-- 引入MUI的js文件 -->
     <script src="./lib/mui/js/mui.js"></script>
@@ -26,5 +188,7 @@
     <!-- 有请求使用到模板引入模板引擎 -->
     <script src="./lib/artTemplate/template-web.js"></script>
     <!-- 引入自己的js -->
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
